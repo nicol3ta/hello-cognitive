@@ -56,7 +56,7 @@ func detectEmotions() {
 	}
 
 	req.Header.Set("Content-Type", "application/json")
-	req.Header.Set("Ocp-Apim-Subscription-Key", "7bd4c9b319ab4adbbaa0495de7a1d6a8")
+	req.Header.Set("Ocp-Apim-Subscription-Key", "Your key goes here")
 
 	httpClient := &http.Client{}
 
@@ -99,7 +99,7 @@ func detectFaces() {
 	}
 
 	req.Header.Set("Content-Type", "application/json")
-	req.Header.Set("Ocp-Apim-Subscription-Key", "69c64a77f21843d0bce071dace9dc01d")
+	req.Header.Set("Ocp-Apim-Subscription-Key", "Your key goes here")
 
 	httpClient := &http.Client{}
 
